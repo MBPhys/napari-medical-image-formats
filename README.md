@@ -3,8 +3,8 @@
 [![License](https://img.shields.io/pypi/l/napari-medical-image-formats.svg?color=green)](https://github.com/MBPhys/napari-medical-image-formats/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-medical-image-formats.svg?color=green)](https://pypi.org/project/napari-medical-image-formats)
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-medical-image-formats.svg?color=green)](https://python.org)
-[![tests](https://github.com/MBPhys/napari-medical-image-formats/workflows/tests/badge.svg)](https://github.com/MBPhys/napari-medical-image-formats/actions)
-[![codecov](https://codecov.io/gh/MBPhys/napari-medical-image-formats/branch/master/graph/badge.svg)](https://codecov.io/gh/MBPhys/napari-medical-image-formats)
+# [![tests](https://github.com/MBPhys/napari-medical-image-formats/workflows/tests/badge.svg)](https://github.com/MBPhys/napari-medical-image-formats/actions)
+# [![codecov](https://codecov.io/gh/MBPhys/napari-medical-image-formats/branch/master/graph/badge.svg)](https://codecov.io/gh/MBPhys/napari-medical-image-formats)
 
 A Plugin in order to read medical image formats such as DICOM and NIfTI without any meta informations. This will be updated soon.
 
