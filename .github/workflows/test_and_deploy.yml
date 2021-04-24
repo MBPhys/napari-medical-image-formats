@@ -16,7 +16,7 @@ on:
       - main
   workflow_dispatch:
 
-jobs:
+#jobs:
 #  test:
 #    name: ${{ matrix.platform }} py${{ matrix.python-version }}
 #    runs-on: ${{ matrix.platform }}
@@ -67,6 +67,7 @@ jobs:
 #      - name: Coverage
 #        uses: codecov/codecov-action@v1
 
+jobs:
   deploy:
     # this will run when you have tagged a commit, starting with "v*"
     # and requires that you have put your twine API key in your 
