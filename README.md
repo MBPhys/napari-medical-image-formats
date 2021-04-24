@@ -10,16 +10,6 @@ A Plugin in order to read medical image formats such as DICOM and NIfTI without 
 
 ----------------------------------
 
-This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.
-
-<!--
-Don't miss the full getting started guide to set up your new package:
-https://github.com/napari/cookiecutter-napari-plugin#getting-started
-
-and review the napari docs for plugin developers:
-https://napari.org/docs/plugins/index.html
--->
-
 ## Installation
 
 You can install `napari-medical-image-formats` via [pip]:

@@ -26,11 +26,11 @@ use_scm = {"write_to": "napari_medical_image_formats/_version.py"}
 
 setup(
     name='napari-medical-image-formats',
-    author='Marc Boucsein',
+    author='Marc Boucsein and Marc Buckmakowski',
     author_email='marc.boucsein@dkfz-heidelberg.de',
     license='BSD-3',
     url='https://github.com/MBPhys/napari-medical-image-formats',
-    description='A Plugin in order to read medical image formats such as DICOM and NIfTI without any meta informations',
+    description='A Plugin in order to read medical image formats such as DICOM and NIfTI',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
