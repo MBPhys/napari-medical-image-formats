@@ -26,7 +26,7 @@ use_scm = {"write_to": "napari_medical_image_formats/_version.py"}
 
 setup(
     name='napari-medical-image-formats',
-    author='Marc Boucsein and Marc Buckmakowski',
+    author='Marc Boucsein, Marc Buckmakowski',
     author_email='marc.boucsein@dkfz-heidelberg.de',
     license='BSD-3',
     url='https://github.com/MBPhys/napari-medical-image-formats',
