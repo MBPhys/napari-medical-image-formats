@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-__version__ = "0.1"
 
 """
-This module provides itk-based file reading functionality in a reader plugin for napari.
+This module provides itk-based file reading functionality in a reader/writer plugin for napari.
 """
 from pathlib import Path
 import numpy as np
