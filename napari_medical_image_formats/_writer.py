@@ -41,6 +41,24 @@ def napari_write_image(path: str, data: Any, meta: dict) -> Optional[str]:
         image=image_from_image_layer(layer)
         itk.imwrite(image, path)
         return path
+
+@napari_hook_implementation
+def napari_write_labels(path: str, data: Any, meta: dict) -> Optional[str]:
+   ext = os.path.splitext(path)[1]
+   layer=napari.layers.Image(data, metadata=meta, scale=meta['scale'], translate=meta['translate'])  
+   if not ext:
+      pass  
+  
+   if ext=='.dcm':
+      #ds= dicom_from_image_layer(layer) 
+      #print(ds)
+      #ds.save_as(path)
+      #return path
+      pass  
+   if ext in ['.nii.gz','.nii','.gz']:
+        image=image_from_image_layer(layer)
+        itk.imwrite(image, path)
+        return path
  
 def image_from_image_layer(image_layer):
     """Convert a napari.layers.Image to an itk.Image."""
