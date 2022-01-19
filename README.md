@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-medical-image-formats.svg?color=green)](https://python.org)
 
 
-A Plugin in order to read and write medical image formats such as DICOM, DICOM Series and NIfTI. The meta information is supported by the package napari-itk-io. 
+A napari plugin in order to read and write medical image formats such as DICOM, DICOM Series and NIfTI. The meta information is supported by the package napari-itk-io. 
 
 ----------------------------------
 
